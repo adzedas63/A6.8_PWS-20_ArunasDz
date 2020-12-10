@@ -1,0 +1,26 @@
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
+
+#myBar3 {
+  width: 3%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
+
+#myBar7 {
+  width: 7%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 30px; 
+  color: white;
+}
