@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Progress</title>
 	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div id="myProgress">
-		<div id="myBar">1%</div>
-	  </div>
-	  <button onclick="move()">Click Me</button>
-	  <div id="myProgress">
-		<div id="myBar3">3%</div>
-	  </div>
-	  <button onclick="move3()">Click Me</button>
-	  <div id="myProgress">
-		<div id="myBar7">7%</div>
-	  </div>
-	  <button onclick="move7()">Click Me</button>
 
-<script src="main.js"></script>
+<body>
+
+	<div id="barHolder">
+		<div id="bar"></div>
+	</div>
+	<div type="button" id="by10" onclick="moveBy1(1)">+1%</div>
+	<div type="button" id="by10" onclick="moveBy1(3)">+3%</div>
+	<div type="button" id="by10" onclick="moveBy1(7)">+7%</div>
+
+	<a href="index.html"><input id="by10" value="Reset"></a>
+	<script type="text/javascript" src="main.js"></script>
 </body>
+
 </html>
